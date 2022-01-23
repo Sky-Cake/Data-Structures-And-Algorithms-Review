@@ -5,6 +5,7 @@ The focus of this project is to learn, practice, and review both data structures
 ---
 ### Algorithms
 The following are all the algorithms that have been looked into and practiced for a better understanding,
+
 1.
 
 
@@ -12,4 +13,5 @@ The following are all the algorithms that have been looked into and practiced fo
 ---
 ### Data Structures
 The following are all the data structures that have been looked into and practiced for a better understanding,
+
 1.
