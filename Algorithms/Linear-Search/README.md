@@ -3,8 +3,8 @@ This is a searching algorithm.
 
 ---
 ### Time Complexity
-1. Worst Case:
-2. Best Case:
+1. Worst Case: O(n)
+2. Best Case: O(1)
 3. Avg case:
 
 ---
