@@ -5,3 +5,4 @@
 The following are the algorithms that have been explored,
 
 1. Linear Search
+2. Binary Search
