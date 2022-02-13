@@ -10,7 +10,10 @@ function insertion_Sort(items_List)
 {
     // the index of an element from the sorted part of the array
     let sorted_Index = 0;
+    
+    let current_Index = 0;
 
+    
     for(let i = 1; i < items_List.length; i++)
     {
         sorted_Index = i - 1;
@@ -22,10 +25,15 @@ function insertion_Sort(items_List)
             if(items_List[sorted_Index] > items_List[current_Index])
             {
                 swap(sorted_Index, current_Index, items_List);
-            }
 
-            sorted_Index = sorted_Index - 1;
-            current_Index = current_Index - 1;
+                sorted_Index = sorted_Index - 1;
+                current_Index = current_Index - 1;
+            }
+            else
+            {
+                // no unnecessary checks will be done when the array already has sorted parts
+                break;
+            }
         }
     }
 }
