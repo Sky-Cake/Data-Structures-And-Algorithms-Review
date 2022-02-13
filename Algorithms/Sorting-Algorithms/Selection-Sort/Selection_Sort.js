@@ -41,7 +41,7 @@ function swap(temp_min_element, min_Index, loop_Index, items_List)
 
 
 // this function will print the sorted array
-function show_Result()
+function show_Result(items_List)
 {
     console.log("The following is the sorted array,");
 
